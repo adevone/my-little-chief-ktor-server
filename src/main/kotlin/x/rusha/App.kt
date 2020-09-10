@@ -15,7 +15,7 @@ import java.io.File
 
 fun main() {
 
-    val driver: SqlDriver = JdbcSqliteDriver(url = "jdbc:sqlite:/Users/adev/code/my-little-chief/MyLittleChief.db")
+    val driver: SqlDriver = JdbcSqliteDriver(url = "jdbc:sqlite:../MyLittleChief.db")
     createSchema(driver)
 
     val db = LittleChiefDatabase(driver)
