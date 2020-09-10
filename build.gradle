@@ -19,9 +19,7 @@ apply(plugin: "kotlinx-serialization")
 apply(plugin: "com.squareup.sqldelight")
 apply(plugin: "application")
 
-application {
-    mainClass = "x.rusha.AppKt"
-}
+mainClassName = "x.rusha.AppKt"
 
 sqldelight {
     LittleChiefDatabase {
